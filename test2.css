@@ -1,0 +1,49 @@
+*{
+    font-family: sans-serif;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+    transition: all .2s linear;
+    text-transform: capitalize;
+}
+
+.main{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 3rem 2rem;
+
+}
+
+.main .title{
+    font-size: 3.5rem;
+    color: #444;
+    margin-bottom: 3rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.main .prod-con{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem,1fr));
+    gap: 2rem;
+}
+
+.main .prod-con .product{
+    text-align: center;
+    padding: 3rem 2rem;
+    background: #fff;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    outline: .1rem solid #ccc;
+    outline-offset: -1.5rem ;
+    cursor: pointer;
+}
+.main .prod-con .product :hover{
+    outline: .1rem solid #222;
+    outline-offset: 0 ;
+}
+
+.main .prod-con .product img{
+    height: 15rem;
+    width: 50%;
+}

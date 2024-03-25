@@ -1,0 +1,116 @@
+*{
+   
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --primary-color:#2424ff;
+    --light-color:#dadadd;
+    --dark-color:#111;
+}
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background:#fff;
+    height: 100%;
+
+
+}
+a{
+    text-decoration: none;
+    color: #333;
+
+}
+ul{
+    list-style: none;
+}
+img{
+    max-width: 100%;
+}
+.navbar{
+    background: #fff;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    top : 0;
+    left: 0;
+    right: 0;
+    height: 70px;
+}
+.navbar .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.navbar .main-menu ul{
+    display: flex;
+    flex-direction: row;
+
+}
+.navbar ul li a{
+    display: block;
+    padding: 10px 20px;
+    font-weight: 600;
+    transition: 0.5s;
+}
+.navbar ul li a:hover{
+    color:var(--primary-color) ;
+}
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.container-sm{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.btn{
+    display: inline-block;
+    padding: 13px 20px;
+    background: var(--light-color);
+    color: #333;
+    text-decoration: none;
+    border: none;
+    border-radius: 10Px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.5s;
+    
+}
+.btn:hover{
+    opacity: 0.8;
+}
+.btn-primary{
+    background: var(--primary-color);
+    color: #fff;
+    display: inline-block;
+    padding: 13px 20px;
+    text-decoration: none;
+    border: none;
+    border-radius: 10Px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.btn-dark{
+    background: var(--dark-color);
+    color: #fff;display: inline-block;
+    padding: 13px 20px;
+    text-decoration: none;
+    border: none;
+    border-radius: 10Px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.logo a{
+    font-size: xx-large;
+    font-family:ui-monospace;
+}
+
+
